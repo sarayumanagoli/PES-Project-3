@@ -10,13 +10,14 @@ The Makefile consists of mainly two build targets, PC and FB along with the `cle
 3.	Select `Files` > `New` > `Project` > `MCUXpresso IDE` > `New C/C++ Project` 
 4.	Select `frdmkl25z` board
 5.	Click on `Next` and provide `project suffix` name
-6.	Click on `Next`
-7.	Select `Redirect SDK “PRINTF” to C library “printf”`
-8.	Click on `Finish`
-9.	In order to use our own Makefile, we must uncheck the option to auto-generate it
-10.	To do the above, click on the Project `settings` on your left
-11.	Right click on `Option` > `Edit Options` > `C/C++ Builds` > Uncheck `Generate Makefiles automatically`
-12. Create your own empty `debug` folder<br /><br />
+6.  Select `UART` option
+7.	Click on `Next`
+8.	Select `Redirect SDK “PRINTF” to C library “printf”`
+9.	Click on `Finish`
+10.	In order to use our own Makefile, we must uncheck the option to auto-generate it
+11.	To do the above, click on the Project `settings` on your left
+12.	Right click on `Option` > `Edit Options` > `C/C++ Builds` > Uncheck `Generate Makefiles automatically`
+13. Create your own empty `debug` folder<br /><br />
 
 # **Build using targets**<br />
 1.	Right click on the project created
